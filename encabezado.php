@@ -11,7 +11,7 @@
 		<header>
 			<div class="wrapper">
 				<h1>
-					<a href="index.php" id="logo">farmacias</a><span id="slogan">Farmacias Tu Ahorro</span>
+					<span ><a href="index.php" class="slogan">Farmacias</a> Tu Ahorro</span>
 				</h1>
 				<div class="right">
 					<nav>

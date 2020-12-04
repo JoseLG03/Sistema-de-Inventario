@@ -43,7 +43,7 @@ tr {
 }
 
 #logo {display:block; width:176px; height:39px; text-indent:-5000px}
-#slogan {display:block}
+#slogan {display:block; text-decoration: none;}
 #top_nav {float:right;padding:25px 60px 0 0}
 #top_nav li {float:left;padding-right:21px;margin-right:20px;background:url(../images/line_top.gif) right 0 no-repeat;padding-top:2px;padding-bottom:3px}
 #top_nav .bg_none {padding-right:0;margin:0;background:none}

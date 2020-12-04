@@ -1,101 +1,439 @@
-/* Getting the new tags to behave */
-article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
-mark, rp, rt, ruby, summary, time {display:inline}
-/* Left & Right alignment */
-.left {float:left}
-.right {float:right}
-.wrapper {width:100%;overflow:hidden;border:1px;}
-/* Global properties */
-body {background:#fff;border:0;font:14px Arial,Helvetica,sans-serif;color:#3c4046;line-height:20px;min-width:1000px}
-.inner_copy, .inner_copy a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
-.css3{border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;box-shadow:0 0 4px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);behavior:url(js/PIE.htc);position:relative}
-.main {margin:0 auto;width:1000px}
-.body1 {background:url(../images/banner.jpg) top center no-repeat #1e2023}
-a {color:#1e749a;text-decoration:underline;outline:none}
-a:hover {text-decoration:none}
-h1 {font-size:20px;font-weight:400;text-transform:uppercase;line-height:26px;color:#fff;float:left;padding:23px 0 0 58px}
-h2 {font-size:28px;color:#3c4046;line-height:38px;padding:30px 0 16px 0;font-weight:400;letter-spacing:-1px}
-p {padding-bottom:20px}
-/* header */
-header {width:100%;overflow:hidden;height:106px}
-header .right {width:600px}
+/*
+Template 2033 Business
+http://www.tooplate.com/view/2033-business
+*/
 
-table {color:#3c4046;  background:#f8f8f8;;
- border:2px solid gray;
- border-collapse:collapse;
- align-items:center;
-}
-caption { border:1px solid #f8f8f8;;
- color:#3c4046;
- font-weight:bold;
- letter-spacing:20px;
- padding:6px 4px 8px 0px;
- text-align:center;
- text-transform:uppercase;
-}
-td, th { color:#3c4046;
- padding:.4em;
- align-items:center;
-}
-tr { 
-    border:1px dotted gray;
-    align-items:center;
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #3a3430;
+	font-family: Helvetica, "Trebuchet MS", Arial, sans-serif;
+	font-size: 13px;
+	line-height:1.5em; 
+	background-color: #e1e1e1;
 }
 
-#logo {display:block; width:176px; height:39px; text-indent:-5000px}
-#slogan {display:block; text-decoration: none;}
-#top_nav {float:right;padding:25px 60px 0 0}
-#top_nav li {float:left;padding-right:21px;margin-right:20px;background:url(../images/line_top.gif) right 0 no-repeat;padding-top:2px;padding-bottom:3px}
-#top_nav .bg_none {padding-right:0;margin:0;background:none}
-#menu {float:left;padding-top:8px;padding-left:5px;width:570px}
-#menu li {float:left;padding-left:1px}
-#menu li a {display:block;font-size:16px;text-transform:uppercase;color:#fff;text-decoration:none;line-height:30px;behavior:url(js/PIE.htc);position:relative;padding:0 20px;margin:1px 0}
-#menu li a:hover, #menu #menu_active a {border-bottom:1px solid #373b40;border-top:1px solid #000;background:#191a1e;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin:0}
-#banner {background:url(../images/bg_img2.jpg) 0 0 no-repeat;height:211px;padding:30px 0 0 60px}
-.text1 {font-weight:600;color:#f0f0f0;font-size:50px;line-height:60px;width:330px;letter-spacing:-2px}
-.text1 span {font-size:45px;line-height:50px;display:block;padding-left:80px;margin-top:-12px;font-weight:400;letter-spacing:-2px}
-.text1 p {font-size:18px;line-height:20px;font-weight:400;padding:13px 0 25px 0;letter-spacing:-1px}
-.button_top {display:inline-block;background:url(../images/button_top.jpg) 0 0 no-repeat;font-size:16px;text-transform:uppercase;color:#fff;text-decoration:none;line-height:31px;padding-right:40px;text-align:center;width:196px}
-.button_top:hover {background:url(../images/button_top_active.jpg) 0 0 no-repeat}
-/* content */
-#content {width:100%;overflow:hidden}
-.pad_1 {padding:0 50px 35px 60px}
-.pad_left1 {padding-left:50px}
-.pad_left3 {padding-left:50px}
-.pad_bot1 {padding-bottom:20px}
-.pad_bot2 {padding-bottom:10px}
-.marg_left1 {margin-left:25px}
-.marg_right1 {margin-right:25px}
-.button1, .button2 {float:right;background:url(../images/button1_bg.gif) top repeat-x;font-size:16px;color:#fff;line-height:30px;text-decoration:none;text-transform:uppercase;font-weight:400;padding:0 20px;margin-left:10px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;behavior:url(js/PIE.htc);position:relative}
-.button2 {background:url(../images/button2_bg.gif) top repeat-x}
-.button1:hover {background:#202225}
-.button2:hover {background:#1f759b}
-.under {border-bottom:1px solid #e1e1e1;padding-bottom:15px;margin-bottom:15px}
-.link1 {text-decoration:none}
-.link1:hover {text-decoration:underline} 
-.color1 {color:#1e749a}
-.marker {display:block;padding-left:13px;background:url(../images/marker_1.gif) 0 7px no-repeat}
-.box1 {width:206px;float:right;background:url(../images/bg_box1.jpg) top repeat-x #1e749a;color:#fff;margin-top:32px;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;behavior:url(js/PIE.htc);position:relative}
-.box1 .pad_1 {padding:25px 24px 4px;background:url(../images/bg_testimonials.gif) 17px 16px no-repeat}
-.list1 li {line-height:20px}
-.list1 li a {padding-left:13px;background:url(../images/marker_1.gif) 0 5px no-repeat}
+a, a:link, a:visited {
+	color: #2d607f;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p { margin: 0px; padding: 0 0 10px 0; }
+img { border: none; }
+
+h1 { font-size: 40px; font-weight: bold; margin: 0 0 30px 0; padding: 5px 0; color: #000; }
+h2 { font-size: 28px; font-weight: normal; line-height: 28px; margin: 0 0 30px 0; padding: 0; color: #000; }
+h3 { font-size: 21px; margin: 0 0 20px 0; padding: 0; padding: 0; color: #000; }
+h4 { font-size: 18px; font-weight: normal; margin: 0 0 20px 0; padding: 0; color: #000; }
+h5 { font-size: 16px; margin: 0 0 10px 0; padding: 0; color: #333; }
+h6 { font-size: 14px; margin: 0 0 5px 0; padding: 0;}
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.margin_r30 { margin-right: 30px; }
+.margin_b20 { margin-bottom: 20px; }
+
+.vertical_divider { background: url(images/tooplate_vertical_divider.jpg) repeat-y right;  }
+.horizon_divider {  background: url(images/tooplate_hor_divider.jpg) repeat-x bottom; }
+
+.float_l {
+	float: left;
+}
+
+.float_r {
+	float: right;
+}
+
+.image_wrapper {
+	display: inline-block;
+	padding: 8px;
+	border: 1px solid #999;
+	background: #ffffff;
+	margin-bottom: 10px;
+}
+
+.image_wrapper2 {
+	display: inline-block;
+	padding: 4px;
+	border: 1px solid #999;
+	background: #ffffff;
+	margin-bottom: 10px;
+}
+
+.fl_img {
+	float: left;
+	margin: 3px 30px 15px 0;
+}
+.fr_img {
+	float: right;
+	margin: 3px 0 15px 15px;
+}
+
+blockquote { font-style: italic; margin-left: 10px;}
+cite { font-weight: bold; }
+cite span { color: #2d607f; }
+em { color: #bf4300; }
+
+.tooplate_list {
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.tooplate_list li {
+	background: transparent url(images/tooplate_list.png) no-repeat scroll 0 0px;
+	margin:0 0 10px;
+	padding:0 0 0 25px;
+	line-height: 1em;
+}
+
+.tooplate_list li a {
+	text-decoration: none;
+}
+
+.tooplate_list li a:hover {
+	text-decoration: underline;
+}
+
+.button a {
+	clear: both;
+	display: block;
+	width: 100px;
+	height: 27px;
+	padding: 5px 0 0 22px;
+	margin-top: 15px;
+	background:  url(images/tooplate_button.png) no-repeat;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button a:hover {
+	background: url(images/tooplate_button_hover.png) no-repeat;
+}
+
+#tooplate_header_wrapper {
+	width: 100%;
+	background: #f3f3f3;
+	height: 200px;
+}
+
+#tooplate_header {
+	width: 990px;
+	height: 200px;
+	padding: 0;
+	margin: 0 auto;
+	background: url(images/tooplate_header.jpg) no-repeat;
+}
+
+#tooplate_header  #site_title {
+	float: left;
+	width: 400px;
+	padding: 35px 0 0 40px;
+}
+
+#tooplate_header  #site_title h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#tooplate_header  #site_title h1 a {
+	margin: 0px;
+	padding: 0px;
+	font-size: 38px;
+	color: #000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#tooplate_header  #site_title h1 a span {
+	display: block;
+	margin-top: 5px;
+	margin-left: 0px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#header_phone_no {
+	float: right;
+	padding-right: 40px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 60px;
+}
+
+#header_phone_no span {
+	font-size: 30px;
+	color: #ef7716;
+}
+
+/* menu */
+
+#tooplate_menu {
+	clear: both;
+	width: 940px;
+	height: 90px;
+	padding: 3px 25px;
+	background: url(images/tooplate_menu.png) no-repeat;
+}
+
+#tooplate_menu #home_menu a {
+	float: left;
+	display: block;
+	width: 46px;
+	height: 46px;
+	margin-right: 40px;
+	background: url(images/tooplate_home.png) no-repeat;
+}
+
+#tooplate_menu #home_menu a:hover {
+	background: url(images/tooplate_home_hover.png) no-repeat;
+}
+
+#tooplate_menu ul {
+	margin: 0;
+	padding: 7px 0 0 0;
+	list-style: none;
+}
+
+#tooplate_menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#tooplate_menu ul li a {
+	float: left;
+	display: block;
+	width: 102px;
+	height: 27px;
+	padding: 5px 0 0 0;
+	margin: 0 10px 0 0 ;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;	
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+
+#tooplate_menu ul li a:hover, #tooplate_menu ul li .current {
+	color: #fec823;
+}
+
+/* end of menu */
+
+#tooplate_middle_wrapper1 {
+	width: 100%;
+	background: url(images/tooplate_banner.jpg) repeat-x;
+	height: 280px;
+}
+
+#tooplate_middle_wrapper2 {
+	width: 100%;
+	height: 280px;
+	background: url(images/tooplate_banner_wrapper.jpg) no-repeat top center;
+}
+
+#tooplate_middle {
+	width: 900px;
+	height: 220px;
+	padding: 30px 45px;
+	margin: 0 auto;
+	color: #c5dcea;
+	font-size: 20px;
+	background: url(images/tooplate_banner_wrapper.jpg) center top no-repeat;
+}
+
+#tooplate_middle h1 {
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 1px #555;
+	font-weight: normal;
+	padding: 50px 0 0 0;
+}
+
+#tooplate_middle h1 span {
+	font-size: 30px;
+	color: #fec821;
+	margin-left: 30px;
+}
+
+#tooplate_middle  p {
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+#tooplate_middle a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#tooplate_middle a span {
+	color: #fec821;
+}
+
+#tooplate_middle a:hover {
+	color: #fec821;
+}
+
+/* main */
+
+#tooplate_main {
+	clear: both;
+	width: 900px;
+	padding: 45px;
+	margin: 0 auto;
+}
+
+#tooplate_content {
+	float: right;
+	width: 600px;
+}
+
+.col_w270 {
+	width: 270px;
+}
+
+.col_w250 {
+	width: 250px;
+}
+
+.col_w190 {
+	width: 190px;
+	padding-right: 40px;
+}
+
+.services_section {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.services_section .ss_left {
+	float: left;
+	width: 80px;
+}
+
+.services_section .ss_left img {
+	width: 80px;
+	height: 80px;
+}
+
+.services_section .ss_right {
+	float: right;
+	width: 500px;
+}
+
+.price {
+	color: #000;
+	font-size: 16px;
+}
+
+.price span {
+	font-size: 20px;
+	color: #C00;
+}
+
+#tooplate_sidebar {
+	float: left;
+	width: 240px;
+}
+
+#contact_form {
+	float: left;
+	width: 400px; 
+	padding: 0px;
+}
+
+#contact_form form {
+	margin: 0px;
+	padding: 0px;
+	/*border:1px solid #e2d1be;
+	padding: 20px 20px 10px 20px; */
+}
+
+#contact_form form .input_field {
+	width: 300px;
+	padding: 5px;
+	background: #d1d1d1;
+	border: 1px solid #b7aeae;
+	color: #333; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form label {
+	display: block;
+	width: 100px;
+	font-size: 14px;	
+	margin-right: 10px;
+}
+
+#contact_form form textarea {
+	width: 388px;
+	height: 200px;
+	background: #d1d1d1;
+	border: 1px solid #b7aeae;
+	padding: 5px; 
+	color: #333; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form .submit_btn {
+	margin-left: 50px;
+	width: 122px;
+	height: 32px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	margin: 10px 0;
+    padding: 5px 14px;
+	background: url(images/tooplate_button.png) no-repeat;
+}
+
+#contact_form form .submit_btn:hover {
+	background: url(images/tooplate_button_hover.png) no-repeat;
+}
+
+/* end of main */
+
 /* footer */
-footer {padding:35px 0 0 0;height:72px;width:100%;overflow:hidden;font-size:12px;line-height:18px;color:#fff;text-align:center}
-footer a {color:#3e96b4}
-/* forms */
-#form_1 p {padding-bottom:0}
-#form_1 .button2 {margin-top:-5px;padding:0 26px}
-#form_1 .input {height:17px;background:none;color:#9d9fa2;font:14px Arial,Helvetica,sans-serif;padding:2px 15px} 
-#form_1 .input1 {width:205px}
-#form_1 .input2 {width:83px}
-#form_1 .bg {background:#fff;border-top:1px solid #ccc;border-left:1px solid #ccc;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;behavior:url(js/PIE.htc);position:relative;margin-bottom:8px}
-#form_1 .radio {width:92px;float:left}
-#form_1 .radio input {vertical-align:middle;float:left;line-height:20px}
 
-#ContactForm .bg {float:right;background:#f8f8f8;border-top:1px solid #c6c6c6;border-left:1px solid #c6c6c6;margin-bottom:8px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;behavior:url(js/PIE.htc);position:relative}
-#ContactForm a {margin-top:12px}
-#ContactForm .input {height:17px;width:412px;background:none;color:#9d9fa2;font:14px Arial,Helvetica,sans-serif;padding:2px 15px}
-#ContactForm .input_calendar {height:17px;width:392px;background:none;color:#9d9fa2;font:14px Arial,Helvetica,sans-serif;padding:2px 15px}
-#ContactForm .sel {height:24px;width:463px;background:none;color:#9d9fa2;font:14px Arial,Helvetica,sans-serif;padding:3px 15px}
-#ContactForm .sel2 {height:24px;width:471px;background:none;color:#9d9fa2;font:14px Arial,Helvetica,sans-serif;padding:3px 15px}
-#ContactForm textarea {overflow:auto;height:183px;width:412px;background:none;color:#9d9fa2;font:14px Arial,Helvetica,sans-serif;padding:2px 15px}
+#tooplate_footer_wrapper {
+	width: 100%;
+	border-top: 1px solid #fff;
+	padding-top: 1px;
+	background: #28556e; 
+}
+
+#tooplate_footer {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 35px;
+	text-align: center;
+	color: #8ab6d1;
+}
+
+#tooplate_footer a {
+	color: #b4d8ee;
+}
+
+/* end of footer */

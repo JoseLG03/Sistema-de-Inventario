@@ -1,8 +1,3 @@
-/*
-Template 2033 Business
-http://www.tooplate.com/view/2033-business
-*/
-
 body {
 	margin: 0px;
 	padding: 0px;
@@ -43,8 +38,8 @@ h6 { font-size: 14px; margin: 0 0 5px 0; padding: 0;}
 .margin_r30 { margin-right: 30px; }
 .margin_b20 { margin-bottom: 20px; }
 
-.vertical_divider { background: url(images/tooplate_vertical_divider.jpg) repeat-y right;  }
-.horizon_divider {  background: url(images/tooplate_hor_divider.jpg) repeat-x bottom; }
+.vertical_divider { background: url(../images/tooplate_vertical_divider.jpg) repeat-y right;  }
+.horizon_divider {  background: url(../images/tooplate_hor_divider.jpg) repeat-x bottom; }
 
 .float_l {
 	float: left;
@@ -91,7 +86,7 @@ em { color: #bf4300; }
 }
 
 .tooplate_list li {
-	background: transparent url(images/tooplate_list.png) no-repeat scroll 0 0px;
+	background: transparent url(../images/tooplate_list.png) no-repeat scroll 0 0px;
 	margin:0 0 10px;
 	padding:0 0 0 25px;
 	line-height: 1em;
@@ -112,7 +107,7 @@ em { color: #bf4300; }
 	height: 27px;
 	padding: 5px 0 0 22px;
 	margin-top: 15px;
-	background:  url(images/tooplate_button.png) no-repeat;
+	background:  url(../images/tooplate_button.png) no-repeat;
 	color: #fff;
 	font-weight: bold;
 	text-align: center;
@@ -134,7 +129,7 @@ em { color: #bf4300; }
 	height: 200px;
 	padding: 0;
 	margin: 0 auto;
-	background: url(images/tooplate_header.jpg) no-repeat;
+	background: url(../images/tooplate_header.jpg) no-repeat;
 }
 
 #tooplate_header  #site_title {
@@ -166,7 +161,7 @@ em { color: #bf4300; }
 }
 
 #header_phone_no {
-	float: right;
+	float: none;
 	padding-right: 40px;
 	display: inline-block;
 	font-size: 14px;
@@ -186,7 +181,7 @@ em { color: #bf4300; }
 	width: 940px;
 	height: 90px;
 	padding: 3px 25px;
-	background: url(images/tooplate_menu.png) no-repeat;
+	background: url(../images/tooplate_menu.png) no-repeat;
 }
 
 #tooplate_menu #home_menu a {
@@ -195,11 +190,11 @@ em { color: #bf4300; }
 	width: 46px;
 	height: 46px;
 	margin-right: 40px;
-	background: url(images/tooplate_home.png) no-repeat;
+	background: url(../images/tooplate_home.png) no-repeat;
 }
 
 #tooplate_menu #home_menu a:hover {
-	background: url(images/tooplate_home_hover.png) no-repeat;
+	background: url(../images/tooplate_home_hover.png) no-repeat;
 }
 
 #tooplate_menu ul {
@@ -238,14 +233,14 @@ em { color: #bf4300; }
 
 #tooplate_middle_wrapper1 {
 	width: 100%;
-	background: url(images/tooplate_banner.jpg) repeat-x;
+	background: url(../images/tooplate_banner.jpg) repeat-x;
 	height: 280px;
 }
 
 #tooplate_middle_wrapper2 {
 	width: 100%;
 	height: 280px;
-	background: url(images/tooplate_banner_wrapper.jpg) no-repeat top center;
+	background: url(../images/tooplate_banner_wrapper.jpg) no-repeat top center;
 }
 
 #tooplate_middle {
@@ -255,7 +250,7 @@ em { color: #bf4300; }
 	margin: 0 auto;
 	color: #c5dcea;
 	font-size: 20px;
-	background: url(images/tooplate_banner_wrapper.jpg) center top no-repeat;
+	background: url(../images/tooplate_banner_wrapper.jpg) center top no-repeat;
 }
 
 #tooplate_middle h1 {
@@ -406,11 +401,11 @@ em { color: #bf4300; }
 	cursor: pointer;
 	margin: 10px 0;
     padding: 5px 14px;
-	background: url(images/tooplate_button.png) no-repeat;
+	background: url(../images/tooplate_button.png) no-repeat;
 }
 
 #contact_form form .submit_btn:hover {
-	background: url(images/tooplate_button_hover.png) no-repeat;
+	background: url(../images/tooplate_button_hover.png) no-repeat;
 }
 
 /* end of main */

@@ -8,5 +8,3 @@ function conectar()
 	$conexion=mysql_connect($servidor, $usuario, "") or die("Problemas en la conexion");
         mysql_select_db($basededatos);
 }
-
-echo "Hola mundo";
